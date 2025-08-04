@@ -2,12 +2,35 @@
 
 This project explores the **World Happiness Report** data (2011–2024) to uncover insights about factors that influence happiness across countries. The dataset includes indicators like GDP per capita, social support, healthy life expectancy, freedom, generosity, corruption perception, and more.
 
-> **Goal**: Perform structured EDA to visualize trends, relationships, and derive key insights that explain variations in global happiness scores.
+> **Goal:** Explore factors influencing global happiness using data from 2011–2024, and provide insights for decision-makers.
+
+## Exploratory Data Analysis Strategy
+
+We'll investigate:
+- How different variables correlate with the Happiness Score
+- Which features are the strongest predictors of happiness
+- How top-performing countries differ from those with lower scores
+
+We aim to identify the *most influential factors* and assess which ones can be targeted by governments or organizations to improve well-being.
+
 
 ## Dataset Overview
 Source: World Happiness Report
 Years Covered: 2011 to 2024
 ---
+
+## 🗂️ Project Overview
+
+This project analyzes the **World Happiness Report** to uncover trends and relationships across countries. The dataset includes key indicators:
+
+- GDP per capita
+- Social support
+- Healthy life expectancy
+- Freedom to make life choices
+- Generosity
+- Perceptions of corruption
+---
+
 ## Key Insights
 
 > **Countries with higher GDP per capita and social support tend to have higher happiness scores.**  
@@ -112,6 +135,24 @@ Loaded the Excel file containing happiness report data from 2011 to 2024.
 
 **Top Countries:** Finland, Denmark, Iceland  
 **Lowest Countries:** Afghanistan, Lebanon, Zimbabwe
+
+## Key Takeaways & Recommendations
+
+- **Strongest Positive Correlations:** GDP per Capita, Social Support, Healthy Life Expectancy
+- **Weaker or Negative Associations:** Freedom, Generosity, Perceptions of Corruption
+
+### Policy Recommendations:
+1. **Invest in Health Infrastructure**  
+   Countries with higher healthy life expectancy tend to report higher happiness scores.
+
+2. **Improve Economic Opportunities**  
+   GDP per Capita is one of the strongest drivers of happiness.
+
+3. **Build Social Support Systems**  
+   Social trust and supportive networks significantly influence well-being.
+
+> Policymakers should prioritize **health, economy, and social trust** to improve happiness outcomes.
+
 
 ## Requirements
 
